@@ -1,6 +1,6 @@
 # install-omnetpp-inet-and-veins-on-ubuntu
 Install all folder above, include: omnetpp-6.0.1, inet4.4, veins-veins-5.2.
-# Installing OMNeT++ *
+# Installing OMNeT++ 
 ## Installing the prerequisite packets
 > $ sudo apt install -f
 
@@ -11,7 +11,7 @@ Install all folder above, include: omnetpp-6.0.1, inet4.4, veins-veins-5.2.
 > $ sudo apt-get install openscenegraph-plugin-osgearth libosgearth-dev
 
 ## Add environment variable
-> $cd omnetpp-6.0.1
+> $ cd omnetpp-6.0.1
 
 > $ . setenv 
 
@@ -24,4 +24,16 @@ Install all folder above, include: omnetpp-6.0.1, inet4.4, veins-veins-5.2.
 > $ ./configure
 
 > $ make
+
+## Run OMNeT++
+
+> $ omnetpp
+
 # Add INET and Veins into OMNeT++
+
+## INET
+### File &rarr; Import &rarr; Existing Projects into Workspace &rarr; Next &rarr; Select root directory &rarr; Browse &rarr; inet4.4 &rarr; Finish
+## VEINS
+### File &rarr; Import &rarr; Existing Projects into Workspace &rarr; Next &rarr; Select root directory &rarr; Browse &rarr; veins-veins-5.2 &rarr; Finish
+
+# Install SUMO

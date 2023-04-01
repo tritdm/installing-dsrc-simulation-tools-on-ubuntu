@@ -1,4 +1,4 @@
-# install-omnetpp-inet-and-veins-on-ubuntu
+# Installing DSRC simulation tools on Ubuntu
 Install all folder above, include: omnetpp-6.0.1, inet4.4, veins-veins-5.2.
 # Installing OMNeT++ 
 ## Installing the prerequisite packets

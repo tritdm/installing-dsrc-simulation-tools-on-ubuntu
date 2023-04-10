@@ -1,5 +1,13 @@
 # Installing DSRC simulation tools on Ubuntu
-Install all folder above, include: omnetpp-6.0.1, inet4.4, veins-veins-5.2.
+
+## Download tools
+
+## [OMNeT++](https://omnetpp.org/download/)
+
+## [VEINS](https://veins.car2x.org/download/)
+
+## [INET](https://inet.omnetpp.org/)
+
 # Installing OMNeT++ 
 ## Installing the prerequisite packets
 > $ sudo apt install -f
@@ -36,4 +44,17 @@ Install all folder above, include: omnetpp-6.0.1, inet4.4, veins-veins-5.2.
 ## VEINS
 ### File &rarr; Import &rarr; Existing Projects into Workspace &rarr; Next &rarr; Select root directory &rarr; Browse &rarr; veins-veins-5.2 &rarr; Finish
 
+![](1.png)
+![](2.png)
+![](3.png)
+
 # Install SUMO
+
+> $ sudo add-apt-repository ppa:sumo/stable
+
+> $ sudo apt-get update
+
+> $ sudo apt-get install sumo sumo-tools sumo-doc
+
+# Run an example
+

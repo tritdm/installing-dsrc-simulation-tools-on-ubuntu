@@ -2,11 +2,11 @@
 
 ## Download tools
 
-## [OMNeT++](https://omnetpp.org/download/)
-
 ## [VEINS](https://veins.car2x.org/download/)
-
+## [OMNeT++](https://omnetpp.org/download/)
 ## [INET](https://inet.omnetpp.org/)
+
+Before downloading, scroll in VEINS download to know the compatibility
 
 # Installing OMNeT++ 
 ## Installing the prerequisite packets
@@ -58,3 +58,12 @@
 
 # Run an example
 
+Open file veins/examples/veins/omnetpp.ini
+
+Right click &rarr; Run as &rarr; OMNeT++ Simulation / Click Run on Toolbar
+
+Open terminal and run:
+
+> $ '/home/mike/Documents/dsrc_cv2x/veins-veins-5.2/sumo-launchd.py' -vv -c '/usr/bin/sumo-gui'
+
+Press F5 or click Run with full animation on Toolbar

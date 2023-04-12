@@ -1,12 +1,12 @@
 # Installing DSRC simulation tools on Ubuntu
 
-## Download tools
+## Downloading tools
 
 ## [VEINS](https://veins.car2x.org/download/)
 ## [OMNeT++](https://omnetpp.org/download/)
 ## [INET](https://inet.omnetpp.org/)
 
-Before downloading, scroll in VEINS download to know the compatibility
+Before downloading, scroll down in VEINS download to check the compatibility.
 
 # Installing OMNeT++ 
 ## Installing the prerequisite packets
@@ -18,14 +18,15 @@ Before downloading, scroll in VEINS download to know the compatibility
 
 > $ sudo apt-get install openscenegraph-plugin-osgearth libosgearth-dev
 
-## Add environment variable
+## Adding environment variable
+
 > $ cd omnetpp-6.0.1
 
 > $ . setenv 
 
 > $ gedit ~/.bashrc
 
-### Add the path: export PATH=$PATH:/home/user/Downloads/omnetpp-5.4.1/bin
+### Adding the path: export PATH=$PATH:/home/user/Downloads/omnetpp-5.6.2/bin
 
 > $ sudo -s
 
@@ -33,11 +34,11 @@ Before downloading, scroll in VEINS download to know the compatibility
 
 > $ make
 
-## Run OMNeT++
+## Running OMNeT++
 
 > $ omnetpp
 
-# Add INET and Veins into OMNeT++
+# Adding INET and Veins into OMNeT++
 
 ## INET
 ### File &rarr; Import &rarr; Existing Projects into Workspace &rarr; Next &rarr; Select root directory &rarr; Browse &rarr; inet4.4 &rarr; Finish
@@ -48,7 +49,7 @@ Before downloading, scroll in VEINS download to know the compatibility
 ![](2.png)
 ![](3.png)
 
-# Install SUMO
+# Installing SUMO
 
 > $ sudo add-apt-repository ppa:sumo/stable
 
@@ -56,14 +57,14 @@ Before downloading, scroll in VEINS download to know the compatibility
 
 > $ sudo apt-get install sumo sumo-tools sumo-doc
 
-# Run an example
+# Running an example
 
 Open file veins/examples/veins/omnetpp.ini
 
-Right click &rarr; Run as &rarr; OMNeT++ Simulation / Click Run on Toolbar
+Right click &rarr; Run as &rarr; OMNeT++ Simulation / Click Run on the Toolbar.
 
 Open terminal and run:
 
 > $ '/home/mike/Documents/dsrc_cv2x/veins-veins-5.2/sumo-launchd.py' -vv -c '/usr/bin/sumo-gui'
 
-Press F5 or click Run with full animation on Toolbar
+Press F5 or click Run with full animation on the Toolbar to run simulation.
